@@ -67,5 +67,30 @@
                 ?>
             </div>
     </nav>
+    
+    <main>
+        <h1>CONTACT US</h1>
+        <h2>Getting in touch is easy!</h2>
+        <p>If you are interested in the services we provide, please give us a call on 0121 800 9630 or email us at Skylaundary2021@hotmail.com</p>
+
+        <a href="mailto:skylaundary2021@hotmail.com?Subject=Book a Slot">Book Your Slots Via E-mail</a>
+
+    </main> 
+   
+    
+    <section class="maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3428.02820483128!2d-2.129645731218289!3d52.58801885647489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487083cb0f37dc97%3A0x9cb8e3cc0509a0d0!2sUniversity%20of%20Wolverhampton!5e0!3m2!1sen!2suk!4v1619740078858!5m2!1sen!2suk" width="1333" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        
+    </section>
+    
+
+
+    <footer>
+        <h3>copyright © 2021-2030.All Rights Reserved. </h3>
+     </footer>
+
+
+
 </body>
 </html>

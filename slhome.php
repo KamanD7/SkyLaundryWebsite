@@ -5,6 +5,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="slstyles.css">
 </head>
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <header>
         <img class="sky-laundry-logo" src="images/sllogo.png">
     </header>
@@ -67,5 +69,25 @@
                 ?>
             </div>
     </nav>
+
+    <div class="container text-center p-4 bg-transparent mt-4">
+        <div class="row">
+            <div class="col col-sm-6">
+                <h4 class="mt-4">TRUSTWORTHY, RELIABLE</h4>
+                <p class="text-centre"> We go the the extra mile to make sure your Laudry gets back to you spotless.
+                    <br> <br> Verified Customer | Josh Troll
+                    <br> "Good service and friendly. Friendly driver and he was also very punctual."
+                    <br> <br> Verified Customer | Ethan Clayton
+                    <br> "Professional Home Delivery Laundy Service. Easy to setup, pickup and take delivery. Well presented shirts returned next day with minimal fuss. Recommended."
+                    <br> <br> Verified Customer | Louis Payne
+                    <br> "Exceptional service, great communication, amazing experience. Will be using again and sharing with my friends."
+                </p>
+            </div>
+            <div class="col col-sm-6 row align-items-center">
+                <img src="images/img6.jpg" class = "w-50 p-3" alt= "" width="200px">
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>

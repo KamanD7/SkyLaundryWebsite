@@ -5,6 +5,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="slstyles.css">
 </head>
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <header>
         <img class="sky-laundry-logo" src="images/sllogo.png">
     </header>
@@ -67,5 +69,21 @@
                 ?>
             </div>
     </nav>
+
+    <div class="container text-center p-4 bg-transparent mt-4">
+        <div class="row">
+            <div class="col col-sm-6">
+                <h4 class="mt-4">About us</h4>
+                <p class="text-start"> SkyLaundry is a company that takes pride in its work. We are a group of university students, and as a student run business, we know how precious your time can be.
+                    Our aim is to provide customers with a convenient, flexible and reliable way to have your clothes laundered.​ 
+                    <br> <br> We uphold high stands, yet keep our prices as competitive and low as possible. We offer a wide range of servies with professionals with over 20 years of experience
+                    making sure, you get your laundry back spotless.
+                </p>
+            </div>
+            <div class="col col-sm-6 row align-items-center">
+                <img src="images\img7.jpg" class = "w-75 p-3" alt= "" width="200px">
+            </div>
+        </div>
+    </div>
 </body>
 </html>

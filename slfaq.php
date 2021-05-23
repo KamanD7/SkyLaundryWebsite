@@ -1,6 +1,3 @@
-<?php
-    session_start();
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -67,5 +64,34 @@
                 ?>
             </div>
     </nav>
+    <main>
+        <h5>How Do I use This Service?</h5>
+        
+        <p>You can either give us a call or book a slot via email which is available on our "Contact Us" page.</p>
+
+        <h5>How Can I pay?</h5>
+        <p>We accept card payments but can accept cash if needed.</p>
+
+        <h5>Canceling or updating a slot?</h5>
+        <p>You can update or cancel your slot. All we ask for is let us know atleast 2 hours before.</p>
+
+        <h5>Do I need to be at home when Laundary is collected and delivered?</h5>
+        <p>No. Just let us know when you order where to collect it from and where you want us to deliver it to.</p>
+
+        <h5>Why Choose SkyLaundary?</h5>
+        <p>Insured Company..............Non-smoking Environment................Collection and Delivery</p>
+    </main>
+
+    <footer>
+        <h3>copyright © 2021-2030.All Rights Reserved. </h3>
+    </footer>
+        
 </body>
 </html>
+
+
+
+
+
+
+   

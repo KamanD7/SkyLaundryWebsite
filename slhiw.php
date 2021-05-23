@@ -5,6 +5,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="slstyles.css">
 </head>
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <header>
         <img class="sky-laundry-logo" src="images/sllogo.png">
     </header>
@@ -67,5 +69,28 @@
                 ?>
             </div>
     </nav>
+
+    <div class="container text-center p-4 bg-transparent mt-4">
+        <div class="row">
+            <div class="col col-sm-4">
+                <img src="images/img1.jpg" class = "rounded-circle border border-white border-2" alt="" width="200px">
+                <h4 class="mt-4">SCHEDULE A COLLECTION</h4>
+                <p class="">Easily choose collection & delivery times at your convenience.</p>
+            </div>
+
+            <div class="col col-sm-4">
+                <img src="images/img2.jpg" class = "rounded-circle border border-white border-2" alt="" width="200px">
+                <h4 class="mt-4">A DRIVER ARRIVES</h4>
+                <p class="">Our drivers bring your items to our cleaning facilites, where we take utmost care to ensure great results.</p>
+            </div>
+            
+            <div class="col col-sm-4">
+                <img src="images/img3.jpg" class = "rounded-circle border border-white border-2" alt= "" width="200px">
+                <h4 class="mt-4">GET CLEAN LAUNDRY</h4>
+                <p class="">Your clothes are back with you 24 hours later - spotless ready to make you look your best.</p>
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>

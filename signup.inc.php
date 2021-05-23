@@ -10,7 +10,7 @@ $secondad = filter_input(INPUT_POST, 'secondadd');
 $host = "localhost";
 $dbusername = "root";
 $dbpassword = "";
-$dbname = "SkyLaundry";
+$dbname = "skylaundry";
 $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
 
 function emptySignUp($username, $password, $forename, $surname, $email, $firstad, $secondad)
@@ -136,8 +136,8 @@ else
     {
         $securePass = password_hash($password, PASSWORD_DEFAULT);
         //password_verify($password, $securePass);
-        $sql = "INSERT INTO Users(Username,Password,Forename,Surname,Email,Firstad,Secondad)
-        values('$username', '$password', '$forename', '$surname', '$email', '$firstad', '$secondad')";
+        $sql = "INSERT INTO users(Username,Password,Forename,Surname,Email,Firstad,Secondad)
+        values('$username', '$securePass', '$forename', '$surname', '$email', '$firstad', '$secondad')";
         if ($conn->query($sql))
         {
             echo "Details Submitted";
