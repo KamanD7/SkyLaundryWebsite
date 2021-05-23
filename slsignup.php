@@ -61,5 +61,31 @@
             <a href="sllogin.php">Log In</a><br>
         </form>
     </div>
+    <?php
+      if(isset($_GET["error"]))
+      {
+          if($_GET["error"] == "emptyinfo")
+          {
+              echo "<p>Need all fields to be filled</p>";
+          }
+          else if($_GET["error"] == "nogooduser")
+          {
+              echo "<p>Not acceptable Username</p>";
+          }
+          else if($_GET["error"] == "useralreadytaken")
+          {
+              echo "<p>Username/Email is already taken. Try again</p>";
+          }
+          else if($_GET["error"] == "nogoodemail")
+          {
+              echo "<p>Need acceptable Email</p>";
+          }
+          else if($_GET["error"] == "none")
+          {
+              echo "<p>Sign Up has been successful, welcome!</p>";
+          }
+      }
+    ?>
+
 </body>
 </html>
